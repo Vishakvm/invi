@@ -1,0 +1,139 @@
+#demo {
+    box-shadow:  4px 4px 8px #d0ab9e,-4px -4px 8px rgba(255,255,255,0.3);
+    max-width:1000px;
+    margin: auto
+}
+
+.carousel-caption {
+    position: initial;
+    z-index: 10;
+    padding: 5rem 8rem;
+    color: rgba(78, 77, 77, 0.856);
+    text-align: center;
+    font-size: 1.2rem;
+    font-style: italic;
+    font-weight: bold;
+    line-height: 2rem
+}
+
+@media(max-width:767px) {
+    .carousel-caption {
+        position: initial;
+        z-index: 10;
+        padding: 3rem 2rem;
+        color: rgba(78, 77, 77, 0.856);
+        text-align: center;
+        font-size: 0.7rem;
+        font-style: italic;
+        font-weight: bold;
+        line-height: 1.5rem
+    }
+}
+
+.carousel-caption img {
+    width: 6rem;
+    border-radius: 5rem;
+    margin-top: 2rem
+}
+
+@media(max-width:767px) {
+    .carousel-caption img {
+        width: 4rem;
+        border-radius: 4rem;
+        margin-top: 1rem
+    }
+}
+
+#image-caption {
+    font-style: normal;
+    font-size: 1rem;
+    margin-top: 0.5rem
+}
+
+@media(max-width:767px) {
+    #image-caption {
+        font-style: normal;
+        font-size: 0.6rem;
+        margin-top: 0.5rem
+    }
+}
+
+#demo i {
+    background-color: #EB483F;
+    padding: 1.4rem
+}
+
+@media(max-width:767px) {
+    i {
+        padding: 0.8rem
+    }
+}
+
+.carousel-control-prev {
+    justify-content: flex-start
+}
+
+.carousel-control-next {
+    justify-content: flex-end
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+    transition: none;
+    opacity: unset
+}
+
+
+/* Temporary Code */
+  a, a:hover{
+  text-decoration: none;
+  color: #EB483F;
+}
+
+.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
+    color: #EB483F !important;
+}
+
+.btn-outline-danger {
+    color: #EB483F !important;
+    border-color: #EB483F !important;
+}
+
+.btn-outline-danger:hover{
+  color:#fff !important;
+  background-color:#EB483F !important;
+}
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
+    color:#EB483F;
+}
+.navbar-light .navbar-nav .nav-link{
+   border-right:1px solid #0471BC;
+   line-height: 4px;
+   font-weight:700;
+   color:#0471BC;
+   letter-spacing: 3px;
+ }
+
+.fa-2x, .fa-google{
+    font-size: 1.3em !important;
+}
+
+.fa{
+    color:#EB483F !important;
+}
+
+.form-control:focus {
+  border-color:none !important;
+  box-shadow: none !important;
+}
+
+.say-hello{
+    border-right:none !important;
+}
+
+@media(min-width:767px){
+  .team .col-md-4 {
+   max-width:29% !important;
+ }
+}
+/* Temporary Code */
