@@ -22,14 +22,12 @@ body {
     margin-left:6px;
 }
 
-
-
 .services{
     background-color: #000000;
     background-image: url('../images/services.png');
     background-position: center center;
     background-size: cover;
-    height:60vh;
+    height:400px;
 }
 
 .team-col {
