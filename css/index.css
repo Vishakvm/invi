@@ -59,8 +59,8 @@
 }
 
 #demo i {
-    background-color: #EB483F;
-    padding: 1.4rem
+    padding: 1.4rem;
+    color:#0471BC;
 }
 
 @media(max-width:767px) {
@@ -94,24 +94,15 @@
     color: #EB483F !important;
 }
 
-.btn-outline-danger {
-    color: #EB483F !important;
-    border-color: #EB483F !important;
-}
-
-.btn-outline-danger:hover{
-  color:#fff !important;
-  background-color:#EB483F !important;
-}
 .navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
-    color:#EB483F;
+    color:#EB483F !important;
 }
 .navbar-light .navbar-nav .nav-link{
-   border-right:1px solid #0471BC;
-   line-height: 4px;
-   font-weight:700;
-   color:#0471BC;
-   letter-spacing: 3px;
+   border-right:1px solid #0471BC !important;
+   line-height: 4px !important;
+   font-weight:700 !important;
+   color:#0471BC !important;
+   letter-spacing: 3px !important;
  }
 
 .fa-2x, .fa-google{
@@ -135,5 +126,14 @@
   .team .col-md-4 {
    max-width:29% !important;
  }
+ .team-col{
+    max-height:460px;
+ }
 }
+
+@media (min-width: 992px){
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: 1rem;
+    padding-left: 1rem;
+}}
 /* Temporary Code */
