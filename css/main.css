@@ -1,93 +1,97 @@
 body {
-  font-family: 'Lato', sans-serif;
-  background-color: #F6CABA;
+  font-family: "Lato", sans-serif;
+  background-color: #f6caba;
 }
 
-.title{
-  font-size:2rem;
-  line-height:3.2rem;
-  color:#0471BC;
+.title {
+  font-size: 2rem;
+  line-height: 3.2rem;
+  color: #0471bc;
 }
 
-.description{
-  font-size:1.1rem;
+.description {
+  font-size: 1.1rem;
   line-height: 1.6rem;
 }
 
-.title, footer span, .footer-heading, .virtual{
-  letter-spacing:3px;
-  font-weight:bold;
+.title,
+footer span,
+.footer-heading,
+.virtual {
+  letter-spacing: 3px;
+  font-weight: bolder;
 }
 
-.footer-heading{
- color:#EB483F;
- font-weight: bold;
+.footer-heading {
+  color: #eb483f;
+  font-weight: bold;
 }
 
-.virtual{
- border-radius: 30px;
- border-color: transparent;
- background: radial-gradient(#EB483F 0% 2%, 2% 100% #fff);
- padding: 15px;
- color:#0471BC;
- font-size:12px;
- font-weight:bold;
- text-shadow: 0 0 5px #fff, 0 0 25px #EB483F, 0 0 15px #EB483F, 0 0 35px #EB483F, 0 0 40px #EB483F, 0 0 45px #EB483F, 0 0 45px #EB483F;
- box-shadow:  4px 4px 8px #d0ab9e,-4px -4px 8px rgba(255,255,255,0.1);
+.virtual {
+  border-radius: 30px;
+  border-color: transparent;
+  background: radial-gradient(#eb483f 0% 2%, 2% 100% #fff);
+  padding: 15px;
+  color: #0471bc;
+  font-size: 12px;
+  font-weight: bold;
+  text-shadow: 0 0 5px #fff, 0 0 25px #eb483f, 0 0 15px #eb483f,
+    0 0 35px #eb483f, 0 0 40px #eb483f, 0 0 45px #eb483f, 0 0 45px #eb483f;
+  box-shadow: 4px 4px 8px #d0ab9e, -4px -4px 8px rgba(255, 255, 255, 0.1);
 }
 
-footer{
-  background: linear-gradient(to top, #A9C9CF 20%, #F5D2C9 100%);
+footer {
+  background: linear-gradient(to top, #a9c9cf 20%, #f5d2c9 100%);
 }
 
-.services{
- background-image: url('../images/services.png');
- background-position: center center;
- background-size: cover;
- height:400px;
+.services {
+  background-image: url("../images/services.png");
+  background-position: center center;
+  background-size: cover;
+  height: 400px;
 }
 
-.animation-img{
+.animation-img {
   border-radius: 100px 100px 300px 100px;
 }
 
-.virtual-img{
+.virtual-img {
   border-radius: 300px 100px 100px 100px;
 }
 
-.box-shadow{
-background: linear-gradient(145deg, #ffd7c7, #ddb5a7);
-box-shadow:  4px 4px 8px #d0ab9e,-4px -4px 8px rgba(255,255,255,0.1);
+.box-shadow {
+  background: linear-gradient(145deg, #ffd7c7, #ddb5a7);
+  box-shadow: 4px 4px 8px #d0ab9e, -4px -4px 8px rgba(255, 255, 255, 0.1);
 }
 
 .icon-box {
-padding: 30px 40px;
-background: #F6CABA;
-border-radius: 20px;
+  padding: 30px 40px;
+  background: #f6caba;
+  border-radius: 20px;
 }
 
-.subscribe-button{
- border-radius: 30px;
- border-color: transparent;
- background: #F5C9BA;
- padding:10px;
- color:#EB483F;
+.subscribe-button {
+  border-radius: 30px;
+  border-color: transparent;
+  background: #f5c9ba;
+  padding: 10px;
+  color: #eb483f;
 }
 
 .team-col {
-  background-color: #FDE2D6;
+  background-color: #fde2d6;
 }
 
-.team-description{
-font-size: 18px;
-line-height:32px;
+.team-description {
+  font-size: 18px;
+  line-height: 32px;
 }
 
-.team h5{
-  color:#0471BC;
-  font-weight:bold;
+.team h5 {
+  color: #0471bc;
+  font-weight: bold;
 }
 
-.row-space{
-  padding-top:7.5rem;
+.row-space {
+  padding-top: 7.5rem;
 }
