@@ -1,12 +1,14 @@
 body {
   font-family: "Lato", sans-serif;
   background-color: #f6caba;
+  font-weight: 300;
 }
 
 .title {
   font-size: 2rem;
   line-height: 3.2rem;
   color: #0471bc;
+  font-weight: 700;
 }
 
 .description {
@@ -14,12 +16,10 @@ body {
   line-height: 1.6rem;
 }
 
-.title,
-footer span,
+.title,footer span,
 .footer-heading,
 .virtual {
   letter-spacing: 3px;
-  font-weight: bolder;
 }
 
 .footer-heading {
@@ -35,13 +35,12 @@ footer span,
   color: #0471bc;
   font-size: 12px;
   font-weight: bold;
-  text-shadow: 0 0 5px #fff, 0 0 25px #eb483f, 0 0 15px #eb483f,
-    0 0 35px #eb483f, 0 0 40px #eb483f, 0 0 45px #eb483f, 0 0 45px #eb483f;
+  text-shadow: 5px 3px 20px #eb483f, -4px 1px 30px #eb483f;
   box-shadow: 4px 4px 8px #d0ab9e, -4px -4px 8px rgba(255, 255, 255, 0.1);
 }
 
 footer {
-  background: linear-gradient(to top, #a9c9cf 20%, #f5d2c9 100%);
+  background: linear-gradient(to top, #9dd1db 10%, #f7dad3 100%);
 }
 
 .services {
