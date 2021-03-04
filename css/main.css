@@ -41,9 +41,9 @@ footer span,
 }
 
 footer {
-  /* background: linear-gradient(to top, #53c0d8, transparent),
+  background: linear-gradient(to top, #53c0d8, transparent),
     linear-gradient(to bottom, #f6caba, transparent);
-  background-blend-mode: screen; */
+  background-blend-mode: screen;
 }
 
 .services {
