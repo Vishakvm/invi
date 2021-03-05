@@ -119,7 +119,17 @@ footer .fa {
   color: #eb483f !important;
   bottom: 0;
 }
-
+@media (min-height: 1360px) {
+  .contact-footer {
+    width: 100%;
+    bottom: 0 !important;
+    position: absolute;
+  }
+  body {
+    position: relative;
+    min-height: 100vh;
+  }
+}
 .form-control:focus {
   border-color: none !important;
   box-shadow: none !important;
@@ -257,18 +267,32 @@ textarea {
 }
 .submit-btn {
   padding: 10px;
-  width: 50%;
+  width: 35%;
   font-size: 12px;
   border-radius: 0;
   border-color: #eb483f;
   color: #eb483f;
   font-weight: bold;
   letter-spacing: 0.1rem;
+  margin-top: 1rem;
 }
 .submit-btn:hover {
   background-color: #eb483f;
   color: white;
   cursor: pointer;
   border-color: #eb483f;
+}
+@media (min-width: 768px) {
+  .gif-col {
+    margin-top: 10% !important;
+    padding-right: 0;
+  }
+  .gif-image {
+    height: 600px !important;
+  }
+  .contact-container {
+    padding-right: 0;
+    margin-right: 0;
+  }
 }
 /* Temporary Code */
