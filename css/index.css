@@ -282,9 +282,12 @@ textarea {
   cursor: pointer;
   border-color: #eb483f;
 }
-@media (min-width: 768px) {
+.gif-col {
+  margin-top: 15% !important;
+}
+@media (min-width: 768px) and (max-width: 1920px) {
   .gif-col {
-    margin-top: 10% !important;
+    margin-top: 15% !important;
     padding-right: 0;
   }
   .gif-image {
@@ -292,7 +295,7 @@ textarea {
   }
   .contact-container {
     padding-right: 0;
-    margin-right: 0;
+    margin-right: 0 !important;
   }
 }
 /* Temporary Code */
