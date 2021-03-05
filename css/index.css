@@ -209,7 +209,7 @@ footer .fa {
   }
 }
 html {
-  overflow-x: hidden;
+  overflow-x: hidden !important;
 }
 /* Contact Form Styling */
 @media (min-width: 1024px) {
