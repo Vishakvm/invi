@@ -212,14 +212,14 @@ html {
   overflow-x: hidden !important;
 }
 /* Contact Form Styling */
-@media (min-width: 1024px) {
+/* @media (min-width: 1024px) {
   .contact {
     padding-left: 6rem;
   }
-}
+} */
 
 input[type="text"] {
-  width: 400px;
+  width: 200px;
   padding-bottom: 2rem;
 }
 ::placeholder {
