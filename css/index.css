@@ -113,7 +113,7 @@ a:hover {
   font-size: 1.3em !important;
 }
 
-.fa {
+footer .fa {
   color: #eb483f !important;
 }
 
@@ -122,8 +122,36 @@ a:hover {
   box-shadow: none !important;
 }
 
-.say-hello {
+.page-item.active .page-link {
+  background-color: transparent;
+  border-color: #007bff;
+}
+
+.last-nav {
   border-right: none !important;
+}
+
+.page-item.active .page-link {
+  background-color: transparent !important;
+  border-color: transparent !important;
+  font-size: 16px !important;
+  font-weight: 700 !important;
+  color: #eb483f;
+}
+
+.page-link {
+  position: relative;
+  display: block;
+  padding: 0.5rem 0.75rem;
+  margin-left: -1px;
+  line-height: 1.25;
+  color: rgb(0, 123, 255);
+  background-color: transparent !important;
+  border: none !important;
+}
+
+.primary-text {
+  color: #0471bc;
 }
 
 @media (min-width: 767px) {
@@ -156,36 +184,6 @@ a:hover {
 }
 
 /* Pagination Styling */
-.pagination {
-  display: inline-flex;
-  position: relative;
-}
-
-.pagination li a.page-link {
-  border: none !important;
-  text-decoration: none;
-  background: none;
-  color: #0471bc;
-  font-size: 20px;
-  font-weight: bold;
-  text-align: center;
-  margin: 0 5px 0 0;
-}
-.pagination li.active a.page-link,
-.pagination li a.page-link:hover,
-.pagination li.active a.page-link:hover,
-.pagination li.active a.page-link {
-  background: none;
-  color: red;
-  border: none;
-}
-.pagination li a.page-link:after,
-.pagination li.active a.page-link:before {
-  border: none !important;
-}
-.pagination li:last-child a.page-link {
-  margin-right: 0;
-}
 
 @media only screen and (max-width: 480px) {
   .pagination {
