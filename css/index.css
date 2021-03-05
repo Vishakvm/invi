@@ -219,7 +219,7 @@ html {
 }
 
 input[type="text"] {
-  width: 100px;
+  width: 400px;
   padding-bottom: 2rem;
 }
 ::placeholder {
