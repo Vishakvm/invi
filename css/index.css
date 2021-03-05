@@ -118,7 +118,6 @@ a:hover {
 footer .fa {
   color: #eb483f !important;
   bottom: 0;
-  position: absolute;
 }
 
 .form-control:focus {
@@ -246,15 +245,20 @@ textarea {
 @media (max-width: 768px) {
   .submit-btn {
     padding: 10px;
-    width: 400px;
+    width: 50% !important;
     font-weight: bold;
     font-size: 12px;
     letter-spacing: 0rem;
   }
+  input[type="text"] {
+    width: 200px;
+    padding-bottom: 2rem;
+  }
 }
 .submit-btn {
   padding: 10px;
-  width: 35%;
+  width: 50%;
+  font-size: 12px;
   border-radius: 0;
   border-color: #eb483f;
   color: #eb483f;
