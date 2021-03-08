@@ -41,14 +41,15 @@ footer span,
 }
 
 footer {
-  background: linear-gradient(to top, #53c0d8, transparent),
+  background: linear-gradient(to top, #a1bac3 10%, transparent),
     linear-gradient(to bottom, #f6caba, transparent);
-  background-blend-mode: screen;
+  /* background-image: url("../images/footer.png");
+  background-size: cover; */
 }
 
 .services {
   background-image: url("../images/services.png");
-  background-position: center center;
+  /* background-position: center center; */
   background-size: cover;
   height: 400px;
 }
@@ -96,4 +97,14 @@ footer {
 
 .row-space {
   padding-top: 7.5rem;
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+  .team-title {
+    font-size: 1.5rem;
+    line-height: 2.2rem;
+  }
+  .team-description {
+    font-size: 15px;
+    line-height: 22px;
+  }
 }
