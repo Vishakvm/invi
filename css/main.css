@@ -41,10 +41,10 @@ footer span,
 }
 
 footer {
-  /* background: linear-gradient(to top, #53c0d8, transparent),
-    linear-gradient(to bottom, #f6caba, transparent); */
-  background-image: url("../images/footer.png");
-  background-size: cover;
+  background: linear-gradient(to top, #a1bac3 10%, transparent),
+    linear-gradient(to bottom, #f6caba, transparent);
+  /* background-image: url("../images/footer.png");
+  background-size: cover; */
 }
 
 .services {
