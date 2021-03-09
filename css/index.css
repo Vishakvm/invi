@@ -298,13 +298,11 @@ textarea {
 
 .projects {
   background-image: url("../images/services.png");
-  /* background-position: center center; */
   background-size: cover;
   height: 100vh;
 }
 .project-title {
   font-size: 20px;
-  letter-spacing: 0.1rem;
   line-height: 4rem;
 }
 /* Temporary Code */

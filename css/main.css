@@ -12,6 +12,7 @@ body {
 }
 
 .description {
+  font-family: "Roboto", sans-serif;
   font-size: 1.1rem;
   line-height: 1.6rem;
 }
