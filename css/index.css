@@ -277,7 +277,7 @@ textarea {
 
 @media (min-width: 768px) and (max-width: 1920px) {
   .gif-image {
-    height: 600px !important;
+    height: 540px !important;
   }
 }
 /* Video Styling */
@@ -291,7 +291,7 @@ textarea {
 .projects {
   background-image: url("../images/services.png");
   background-size: cover;
-  height: 100vh;
+  height: 50vh;
 }
 .project-title {
   font-size: 20px;
