@@ -151,9 +151,9 @@ footer .fa {
   font-weight: 700 !important;
   color: #eb483f;
 }
-*:focus {
-  outline: none;
-  border: none;
+*:active {
+  outline: none !important;
+  border: none !important;
 }
 .page-link {
   position: relative;
@@ -164,6 +164,7 @@ footer .fa {
   color: rgb(0, 123, 255);
   background-color: transparent !important;
   border: none !important;
+  box-shadow: 0 2px 5px transparent !important;
 }
 
 .primary-text {
@@ -229,7 +230,7 @@ html {
 } */
 
 input[type="text"] {
-  width: 200px;
+  /* width: 200px; */
   padding-bottom: 2rem;
 }
 ::placeholder {
@@ -246,7 +247,7 @@ input[type="text"] {
   padding-left: 0 !important;
 }
 textarea {
-  width: 90% !important;
+  /* width: 90% !important; */
   resize: none;
 }
 .comment {
@@ -261,7 +262,6 @@ textarea {
     letter-spacing: 0rem;
   }
   input[type="text"] {
-    width: 200px;
     padding-bottom: 2rem;
   }
 }
@@ -282,20 +282,29 @@ textarea {
   cursor: pointer;
   border-color: #eb483f;
 }
-.gif-col {
-  margin-top: 15% !important;
-}
+
 @media (min-width: 768px) and (max-width: 1920px) {
-  .gif-col {
-    margin-top: 15% !important;
-    padding-right: 0;
-  }
   .gif-image {
     height: 600px !important;
   }
-  .contact-container {
-    padding-right: 0;
-    margin-right: 0 !important;
-  }
+}
+/* Video Styling */
+.works-video {
+  border: none !important;
+  box-shadow: 14px 14px 18px rgb(44, 44, 44);
+}
+
+/* Video Styling */
+
+.projects {
+  background-image: url("../images/services.png");
+  /* background-position: center center; */
+  background-size: cover;
+  height: 100vh;
+}
+.project-title {
+  font-size: 20px;
+  letter-spacing: 0.1rem;
+  line-height: 4rem;
 }
 /* Temporary Code */
