@@ -387,4 +387,23 @@ textarea {
 .images img {
   border-radius: 10%;
 }
+.animation-services {
+  background: url("../images/services-animation.png");
+  background-size: cover;
+}
+.virtual-video {
+  /* background-image: url("../images/Virtualworld.jpg"); */
+  /* height: 930px;
+  width: 600px; */
+  margin-bottom: 50px;
+  /* border-radius: 50%; */
+}
+video {
+  /* border-radius: 40%; */
+  /* height: 500px !important; */
+}
+/* Hide Play button + controls on iOS */
+video::-webkit-media-controls {
+  display: none !important;
+}
 /* Temporary Code */

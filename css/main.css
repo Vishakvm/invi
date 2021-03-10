@@ -10,7 +10,9 @@ body {
   color: #0471bc;
   font-weight: 700;
 }
-
+.title-desc {
+  color: #0471bc;
+}
 .description {
   font-size: 17px;
   color: rgb(25, 25, 27);
@@ -31,17 +33,19 @@ footer span,
 }
 
 .virtual {
-  border-radius: 30px;
-  border-color: transparent;
-  background: radial-gradient(#eb483f 0% 2%, 2% 100% #fff);
-  padding: 15px;
+  background: transparent;
   color: #0471bc;
   font-size: 12px;
   font-weight: bold;
+  /* border-radius: 30px; */
+  border-color: transparent;
+  /* background: radial-gradient(#eb483f 0% 2%, 2% 100% #fff);
   text-shadow: 5px 3px 20px #eb483f, -4px 1px 30px #eb483f;
-  box-shadow: 4px 4px 8px #d0ab9e, -4px -4px 8px rgba(255, 255, 255, 0.1);
+  box-shadow: 4px 4px 8px #d0ab9e, -4px -4px 8px rgba(255, 255, 255, 0.1); */
 }
-
+.virtual:hover {
+  color: #eb483f;
+}
 footer {
   background: linear-gradient(to top, #a1bac3 20%, transparent),
     linear-gradient(to bottom, #f6caba, transparent);
@@ -49,19 +53,21 @@ footer {
   background-size: cover; */
 }
 
-.services {
+/* .services {
   background-image: url("../images/services.png");
-  /* background-position: center center; */
+ 
   background-size: cover;
   height: 400px;
-}
+} */
 
 .animation-img {
-  border-radius: 100px 100px 300px 100px;
+  /* border-radius: 100px 100px 300px 100px; */
+  border-radius: 50%;
 }
 
 .virtual-img {
-  border-radius: 300px 100px 100px 100px;
+  /* border-radius: 300px 100px 100px 100px; */
+  border-radius: 50%;
 }
 
 .box-shadow {
