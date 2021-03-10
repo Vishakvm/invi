@@ -398,10 +398,7 @@ textarea {
   margin-bottom: 50px;
   /* border-radius: 50%; */
 }
-video {
-  /* border-radius: 40%; */
-  /* height: 500px !important; */
-}
+
 /* Hide Play button + controls on iOS */
 video::-webkit-media-controls {
   display: none !important;
