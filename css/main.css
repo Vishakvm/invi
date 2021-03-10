@@ -49,16 +49,7 @@ footer span,
 footer {
   background: linear-gradient(to top, #a1bac3 20%, transparent),
     linear-gradient(to bottom, #f6caba, transparent);
-  /* background-image: url("../images/footer.png");
-  background-size: cover; */
 }
-
-/* .services {
-  background-image: url("../images/services.png");
- 
-  background-size: cover;
-  height: 400px;
-} */
 
 .animation-img {
   /* border-radius: 100px 100px 300px 100px; */
