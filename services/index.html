@@ -1,192 +1,256 @@
 <!doctype html>
 <html lang="en">
 
-  <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+    integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
 
-    <!-- Fav Icon -->
-    <link rel="icon" type="image/jpg" href="../images/invi-fav-icon.jpg" />
+  <!-- Fav Icon -->
+  <link rel="icon" type="image/jpg" href="../images/invi-fav-icon.jpg" />
 
-    <!-- Google Fonts -->
-    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;900&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
 
-    <!-- External CSS -->
-    <link rel="stylesheet" href="../css/main.css">
-    <link rel="stylesheet" href="../css/index.css">
+  <!-- External CSS -->
+  <link rel="stylesheet" href="../css/main.css">
+  <link rel="stylesheet" href="../css/index.css">
 
-    <!-- Font Awesome -->
-    <script src="https://kit.fontawesome.com/ff32cb2647.js" crossorigin="anonymous"></script>
+  <!-- Font Awesome -->
+  <script src="https://kit.fontawesome.com/ff32cb2647.js" crossorigin="anonymous"></script>
 
-    <title>INVI - Innovative Visuals</title>
-  </head>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+    </script>
 
-  <body>
+  <script src="jquery.hoverplay.js"></script>
 
-    <!-- ======= Header ======= -->
-    <header class="services">
-      <nav class="navbar navbar-expand-lg navbar-light container py-lg-3">
-        <a class="navbar-brand" href="#"><img src="../images/invi-logo.png" alt="Invi Logo"></a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav mx-auto">
-            <li class="nav-item">
-              <a class="nav-link" href="../">HOME <span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="../about/">ABOUT</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link active" href="../services/">SERVICES</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="../stories/">STORIES</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="../works/">WORKS</a>
-            </li>
-            <li class="nav-item">
-              <a class="say-hello nav-link say-hello" href="../say-hello/">SAY HELLO</a>
-            </li>
-          </ul>
-        </div>
-      </nav>
-      <h1 class="text-center title pt-lg-5 text-uppercase">What We Do ?</h1>
-      <p class="text-center title-desc ">We create virtual experiences through architecture, storytelling, and design.</p>
-    </header>
-    <!-- =======  Header ======= -->
-<div class="container mt-5">
-  <div class="row ">
-    <div class="col-12">
-      <img src="../images/services-bg.png" alt="services"  class="img-fluid">
+  <title>INVI - Innovative Visuals</title>
+</head>
+
+<body>
+
+  <!-- ======= Header ======= -->
+  <header class="services">
+    <nav class="navbar navbar-expand-lg navbar-light container py-lg-3">
+      <a class="navbar-brand" href="#"><img src="../images/invi-logo.png" alt="Invi Logo"></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav mx-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="../">HOME <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../about/">ABOUT</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="../services/">SERVICES</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../stories/">STORIES</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../works/">WORKS</a>
+          </li>
+          <li class="nav-item">
+            <a class="say-hello nav-link say-hello" href="../say-hello/">SAY HELLO</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <h1 class="text-center title pt-lg-5 text-uppercase">What We Do ?</h1>
+    <p class="text-center title-desc ">We create virtual experiences through architecture, storytelling, and design.</p>
+  </header>
+  <!-- =======  Header ======= -->
+  <div class="container mt-5">
+    <div class="row ">
+      <div class="col-12">
+        <img src="../images/services-bg.png" alt="services" class="img-fluid">
+      </div>
     </div>
   </div>
-</div>
 
-    <!-- =======  Services ======= -->
-    <section class="container">
-   
-      <div class=" row d-flex justify-content-between align-items-center row-space">
-       
-        <div class="col-md-6">
-          <div class="virtual-video">
-            <video class="thevideo img-fluid" loop>
-              <source src="../images/animationhover.mp4" type="video/mp4">
-            Your browser does not support the video tag.
-            </video>
-          </div>
-          <!-- <img src="../images/animation-services).jpg" alt="" class="img-fluid animation-img"> -->
-          <!-- <video width="320" height="240" controls data-play="hover">
+  <!-- =======  Services ======= -->
+  <section class="container">
+
+    <div class=" row d-flex justify-content-between align-items-center row-space">
+
+      <div class="col-md-6">
+        <div id="video-wrapper">
+          <video id="video" class="img-fluid" controls data-play="hover">
+            <source src="../images/animationhover.mp4" type="video/mp4">
+            Your browser does not
+            support the video tag.
+          </video>
+        </div>
+        <!-- <img src="../images/animation-services).jpg" alt="" class="img-fluid animation-img"> -->
+        <!-- <video width="320" height="240" controls data-play="hover">
             <source src="../images/archvilla/video1.mp4" type="video/mp4">
             Your browser does not support the video tag.
           </video> -->
-        </div>
-        <div class=" col-md-5">
-          <h1 class="title">ANIMATION</h1>
-          <div class="divider"></div>
-          <p class="description py-4 text-justify">We tell stories through cinematic animations captured by immersive environments and compelling narrative. Storytelling is often the ability to reach into our minds and find what is beautiful, what is useful, and what is lasting. An effective animation should never allow the eye to settle in one place, instead, it should inspire you to create your own imagination while waking up your various emotions. We hope our product can give you a memorable experience that encourages you to contemplate and reflect.</p>
-          <button class="virtual my-md-3 ml-lg-2 d-block font-weight-bold">
-            VIEW OUR WORK
-          </button>
-        </div>
       </div>
-   
-      <div class="row d-flex justify-content-between align-items-center row-space">
-        <div class="col-md-5">
-          <h1 class="title">VIRTUAL</h1>
-          <div class="divider"></div>
-          <p class="description py-4 text-justify">We design virtual experiences through graphics, architecture, and 360 while blurring the lines between virtual and reality. We aim to tell your stories through our innovative visuals as we redefine how information can be presented in an effective and visually captivating way. This is the world where our expressions become our voices as we highlight the human connections. There is no box, no boundary, and no physical limitations. We do not try to replicate the real, instead, we focus on creating a unique experience that is only imaginable in a space that is unreal.</p>
-          <button class="virtual my-3 ml-lg-2 d-block font-weight-bold">
-            VIEW OUR WORK
-          </button>
-        </div>
-        <div class="col-md-6">
-          <div class="virtual-video">
-            <video class="thevideo img-fluid" loop>
-              <source src="../images/virtualworld.mov" type="video/mp4">
-            Your browser does not support the video tag.
-            </video>
-          </div>
-          <!-- <img src="../images/Virtualworld.jpg" alt="" class="img-fluid virtual-img"> -->
-        </div>
-      </div>
-
-    </section>
-    <!-- =======  Services ======= -->
-
-    <!-- =======  Testimonials ======= -->
-
-    <div class="container row-space my-lg-4">
-      <h1 class="title text-center">TESTIMONIALS</h1>
-      <div id="demo" class="carousel slide mt-lg-2" data-ride="carousel">
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <div class="carousel-caption mx-4">
-              <p>An excellent team and a better company! INVI put in their effort to make sure my creative work can come to life. They are one of the best work I’ve seen with a flexible rate. I am so glad to have work with them and will continue to work with them in future projects. <br /><br /></p>
-              <div id="image-caption" class="pt-lg-4 font-weight-bold">THUYTIEN NGUYEN</div>
-            </div>
-          </div>
-          <div class="carousel-item">
-            <div class="carousel-caption mx-4">
-              <p>Invi has certainly brought together a pool of global talent to create masterpieces as showcased in their website. Anyone seeking to develop truly innovative architecture is highly recommended to connect with this reliable team of architects and designers for their next project.</p>
-              <div id="image-caption" class="pt-lg-4 font-weight-bold">ALINA SHRESTHA</div>
-            </div>
-          </div>
-        </div> <a class="carousel-control-prev" href="#demo" data-slide="prev"> <i class='fas fa-arrow-left fa-2x' ></i> </a> <a class="carousel-control-next" href="#demo" data-slide="next"> <i class='fas fa-arrow-right fa-2x'></i> </a>
+      <div class=" col-md-5">
+        <h1 class="title">ANIMATION</h1>
+        <div class="divider"></div>
+        <p class="description py-4 text-justify">We tell stories through cinematic animations captured by immersive
+          environments and compelling narrative. Storytelling is often the ability to reach into our minds and find what
+          is beautiful, what is useful, and what is lasting. An effective animation should never allow the eye to settle
+          in one place, instead, it should inspire you to create your own imagination while waking up your various
+          emotions. We hope our product can give you a memorable experience that encourages you to contemplate and
+          reflect.</p>
+        <button class="virtual my-md-3 ml-lg-2 d-block font-weight-bold">
+          VIEW OUR WORK
+        </button>
       </div>
     </div>
 
-    <!-- =======  Testimonials ======= -->
+    <div class="row d-flex justify-content-between align-items-center row-space">
+      <div class="col-md-5">
+        <h1 class="title">VIRTUAL</h1>
+        <div class="divider"></div>
+        <p class="description py-4 text-justify">We design virtual experiences through graphics, architecture, and 360
+          while blurring the lines between virtual and reality. We aim to tell your stories through our innovative
+          visuals as we redefine how information can be presented in an effective and visually captivating way. This is
+          the world where our expressions become our voices as we highlight the human connections. There is no box, no
+          boundary, and no physical limitations. We do not try to replicate the real, instead, we focus on creating a
+          unique experience that is only imaginable in a space that is unreal.</p>
+        <button class="virtual my-3 ml-lg-2 d-block font-weight-bold">
+          VIEW OUR WORK
+        </button>
+      </div>
+      <div class="col-md-6">
+        <div id="video-wrapper">
+          <video id="video" class="img-fluid" controls data-play="hover">
+            <source src="../images/virtualworld.mov" type="video/mp4">
+            Your browser does not
+            support the video tag.
+          </video>
+        </div>
+        <!-- <img src="../images/Virtualworld.jpg" alt="" class="img-fluid virtual-img"> -->
+      </div>
+    </div>
 
-    <!-- ======= Footer ======= -->
-    <footer class="py-5">
-      <div class="container pt-lg-3">
-        <div class="row d-flex justify-content-between">
-          <div class="col-md-4 pb-4 pb-md-0">
-            <h5 class="pb-3 pb-md-5 footer-heading">CONTACT</h5>
-            <p><span>PHONE | </span>832 . 356 . 7656</p>
-            <p><span>EMAIL | </span>hello@invi.us</p>
-            <p><span>LOCATION |</span> Texas, USA</p>
-            <p>© 2020 INVI LLC | All Rights Reserved</p>
-          </div>
-          <div class="col-md-4 pb-4 pb-md-0 text-left">
-            <h5 class="pb-3 pb-md-5 footer-heading">FOLLOW US</h5>
-            <p>
-            <div class="social-icons d-inline pr-2 mr-2"><a href="https://www.instagram.com/invi.stories/" target="_blank"><i class="fa fa-instagram fa-2x" aria-hidden="true"></i></a></div>
-            <div class="social-icons d-inline p-2 mr-2"><a href="https://www.linkedin.com/company/invi-llc/" target="_blank"><i class="fa fa-linkedin fa-2x" aria-hidden="true"></i></a></div>
-            <div class="social-icons d-inline p-2 mr-2"><a href="https://www.youtube.com/channel/UCK_9VVNxQg11pNVy8TBazRw" target="_blank"><i class="fa fa-youtube fa-2x" aria-hidden="true"></i></a></div>
-            <div class="social-icons d-inline p-2 mr-2"><a href="#"><i class="fa fa-google" aria-hidden="true"></i></a></div>
+  </section>
+  <!-- =======  Services ======= -->
 
-            </p>
+
+  <!-- =======  Testimonials ======= -->
+
+  <div class="container row-space my-lg-4">
+    <h1 class="title text-center">TESTIMONIALS</h1>
+    <div id="demo" class="carousel slide mt-lg-2" data-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <div class="carousel-caption mx-4">
+            <p>I had the pleasure of working with INVI on a virtual community art initiative, and I was so blown away by
+              their team's creativity, professionalism, and attention to detail. INVI is uniquely positioned to turn
+              visionary ideas into virtual realities. Their staff is thoughtful and exceptionally gifted at bringing
+              concepts to fruition in timely and captivating ways. I'd recommend using their services and engaging them
+              as thought partners.<br /><br /></p>
+            <div id="image-caption" class="pt-lg-4 font-weight-bold">KARIM FARISHTA (#ArtForJustice Project)</div>
           </div>
-          <div class="col-md-4">
-            <h5 class="pb-3 pb-md-5 footer-heading">NEWSLETTER</h5>
-            <p>Subscribe to INVI for all latest news,<br /> behind-the-scene stories, and exciting projects</p>
-            <div class="input-group pt-3">
-              <input type="email" class="form-control input-button p-4" placeholder="Enter your email" required>
-              <div class="input-group-append">
-                <input type="submit" class="btn subscribe-button font-weight-bold px-4" value="Subscribe">
-              </div>
+        </div>
+        <div class="carousel-item">
+          <div class="carousel-caption mx-4">
+            <p>I had a great feeling about the team at INVI from the minute they grasped the project creatively and
+              technically. They were excellent listeners, communicators. They delivered everything on time and did a
+              superlative job that all our clients are raving about. But the main thing I love about them is they try
+              and go above and beyond to accommodate your project. Easy to work with, knowledgeable and also willing to
+              push themselves creatively. I believe their talents are going to take them far and wide and we will be for
+              sure, doing more exciting projects with them.</p>
+            <div id="image-caption" class="pt-lg-4 font-weight-bold">ALEX RAY, Eye of the Huntress (Le Petit Trianon
+              Project)</div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="carousel-caption mx-4">
+            <p>Tien and Afreen at INVI were an excellent resource for the Southern Plains Museum and Cultural Center
+              (SPMCC). INVI was extremely responsive and worked collaboratively with the project host, the Southern
+              Apache Museum. INVI listened to their wishes and concerns and approached the subject matter with
+              sensitivity. They delivered the project right on time for Native American Heritage Month and we were
+              amazed by the virtual experience! -Houston Mayor's Office of Cultural Affairs</p>
+            <div id="image-caption" class="pt-lg-4 font-weight-bold">HoustonMOCA, City of Houston (Southern Plains
+              Museum and Cultural Center Project)</div>
+          </div>
+        </div>
+      </div> <a class="carousel-control-prev" href="#demo" data-slide="prev"> <i class='fas fa-arrow-left fa-2x'></i>
+      </a> <a class="carousel-control-next" href="#demo" data-slide="next"> <i class='fas fa-arrow-right fa-2x'></i>
+      </a>
+    </div>
+  </div>
+
+  <!-- =======  Testimonials ======= -->
+
+  <!-- ======= Footer ======= -->
+  <footer class="py-5">
+    <div class="container pt-lg-3">
+      <div class="row d-flex justify-content-between">
+        <div class="col-md-4 pb-4 pb-md-0">
+          <h5 class="pb-3 pb-md-5 footer-heading">CONTACT</h5>
+          <p><span>PHONE | </span>832 . 356 . 7656</p>
+          <p><span>EMAIL | </span>hello@invi.us</p>
+          <p><span>LOCATION |</span> Texas, USA</p>
+          <p>© 2020 INVI LLC | All Rights Reserved</p>
+        </div>
+        <div class="col-md-4 pb-4 pb-md-0 text-left">
+          <h5 class="pb-3 pb-md-5 footer-heading">FOLLOW US</h5>
+          <p>
+          <div class="social-icons d-inline pr-2 mr-2"><a href="https://www.instagram.com/invi.stories/"
+              target="_blank"><i class="fa fa-instagram fa-2x" aria-hidden="true"></i></a></div>
+          <div class="social-icons d-inline p-2 mr-2"><a href="https://www.linkedin.com/company/invi-llc/"
+              target="_blank"><i class="fa fa-linkedin fa-2x" aria-hidden="true"></i></a></div>
+          <div class="social-icons d-inline p-2 mr-2"><a href="https://www.youtube.com/channel/UCK_9VVNxQg11pNVy8TBazRw"
+              target="_blank"><i class="fa fa-youtube fa-2x" aria-hidden="true"></i></a></div>
+          <div class="social-icons d-inline p-2 mr-2"><a href="#"><i class="fa fa-google" aria-hidden="true"></i></a>
+          </div>
+
+          </p>
+        </div>
+        <div class="col-md-4">
+          <h5 class="pb-3 pb-md-5 footer-heading">NEWSLETTER</h5>
+          <p>Subscribe to INVI for all latest news,<br /> behind-the-scene stories, and exciting projects</p>
+          <div class="input-group pt-3">
+            <input type="email" class="form-control input-button p-4" placeholder="Enter your email" required>
+            <div class="input-group-append">
+              <input type="submit" class="btn subscribe-button font-weight-bold px-4" value="Subscribe">
             </div>
           </div>
         </div>
       </div>
-    </footer>
-    <!-- ======= Footer ======= -->
+    </div>
+  </footer>
+  <!-- ======= Footer ======= -->
 
 
-    <!-- ======= Bootstrap ======= -->
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
-   <srcipt src="../video.js">
-   </srcipt>
-  </body>
+  <!-- ======= Bootstrap ======= -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns"
+    crossorigin="anonymous"></script>
+  <script>
+
+    // Getting video element using jQuery 
+    var video = $("#video");
+
+    // Check if video is ready to play 
+    $(video).on('canplay', function () {
+      $(video).mouseenter(function () {
+        $(this).get(0).play();
+      }).mouseleave(function () {
+        $(this).get(0).pause();
+      })
+    });
+  </script>
+</body>
 
 </html>

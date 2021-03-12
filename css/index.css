@@ -396,32 +396,32 @@ textarea {
 }
 
 /* Hide Play button + controls on iOS */
-video::-webkit-media-controls {
+/* video::-webkit-media-controls {
   display: none !important;
-}
+} */
 
 /* Circle Works Menu */
 .circle-item {
   display: block;
   position: relative;
   overflow: hidden;
-  max-width: 530px;
+  max-width: 540px;
   margin: auto auto 1rem;
   border-radius: 50%;
 }
 .circle-img {
+  height: 300px;
   border-radius: 50%;
 }
 .circle-item .caption {
   display: flex;
   height: 100%;
-  width: 90%;
-  background-color: none;
+  width: 100%;
+  background-color: rgba(25, 28, 31, 0.2);
   position: absolute;
   top: 0;
   bottom: 0;
   z-index: 1;
-  margin-left: 2rem;
 }
 .circle-item .caption .caption-content .caption-heading {
   letter-spacing: 0.2rem;
@@ -438,22 +438,23 @@ video::-webkit-media-controls {
   .circle-item {
     max-width: none;
     margin: 0;
-    height: 500px;
+    /* height: 400px; */
   }
   .circle-img {
-    height: 500px;
+    height: 400px;
   }
   .circle-item .caption {
     transition: background-color 0.7s, -webkit-clip-path 0.25s ease-out;
     transition: clip-path 0.25s ease-out, background-color 0.7s;
     transition: clip-path 0.25s ease-out, background-color 0.7s,
       -webkit-clip-path 0.25s ease-out;
-    -webkit-clip-path: circle(80%);
-    clip-path: circle(80%);
+    -webkit-clip-path: circle(90%);
+    clip-path: circle(90%);
+    border-radius: 50% !important;
   }
   .circle-item .caption .caption-content {
     transition: opacity 0.25s;
-    margin-left: 7rem;
+    margin-left: 5rem;
     margin-right: 5rem;
     margin-bottom: 5rem;
   }
@@ -461,20 +462,19 @@ video::-webkit-media-controls {
     transition: -webkit-clip-path 0.25s ease-out;
     transition: clip-path 0.25s ease-out;
     transition: clip-path 0.25s ease-out, -webkit-clip-path 0.25s ease-out;
-    -webkit-clip-path: circle(90%);
-    clip-path: circle(90%);
+    -webkit-clip-path: circle(100%);
+    clip-path: circle(100%);
     border-radius: 50% !important;
   }
   .circle-item:hover img {
     -webkit-clip-path: circle(0%);
     clip-path: circle(0%);
-    /* border-radius: 50%; */
   }
   .circle-item:hover .caption {
     background-color: #f19979;
-    /* margin-left: 5rem; */
-    -webkit-clip-path: circle(80%);
-    clip-path: circle(80%);
+    -webkit-clip-path: circle(60%);
+    clip-path: circle(60%);
+    /* text-align: center; */
     border-radius: 50% !important;
   }
 }
