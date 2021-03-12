@@ -38,7 +38,7 @@
   <!-- ======= Header ======= -->
   <header class="services">
     <nav class="navbar navbar-expand-lg navbar-light container py-lg-3">
-      <a class="navbar-brand" href="#"><img src="../images/invi-logo.png" alt="Invi Logo"></a>
+      <a class="navbar-brand" href="#"><img src="../images/invi-logo.png" alt="Invi Logo" ></a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
         aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -85,17 +85,12 @@
 
       <div class="col-md-6">
         <div id="video-wrapper">
-          <video id="video" class="img-fluid" controls data-play="hover">
+          <video id="video" class="animation-video img-fluid "  data-play="hover" muted="muted" >
             <source src="../images/animationhover.mp4" type="video/mp4">
             Your browser does not
             support the video tag.
           </video>
         </div>
-        <!-- <img src="../images/animation-services).jpg" alt="" class="img-fluid animation-img"> -->
-        <!-- <video width="320" height="240" controls data-play="hover">
-            <source src="../images/archvilla/video1.mp4" type="video/mp4">
-            Your browser does not support the video tag.
-          </video> -->
       </div>
       <div class=" col-md-5">
         <h1 class="title">ANIMATION</h1>
@@ -111,7 +106,6 @@
         </button>
       </div>
     </div>
-
     <div class="row d-flex justify-content-between align-items-center row-space">
       <div class="col-md-5">
         <h1 class="title">VIRTUAL</h1>
@@ -128,14 +122,14 @@
       </div>
       <div class="col-md-6">
         <div id="video-wrapper">
-          <video id="video" class="img-fluid" controls data-play="hover">
+          <video id="video" class="img-fluid virtual-video"   data-play="hover" muted="muted">
             <source src="../images/virtualworld.mov" type="video/mp4">
             Your browser does not
             support the video tag.
           </video>
         </div>
-        <!-- <img src="../images/Virtualworld.jpg" alt="" class="img-fluid virtual-img"> -->
       </div>
+    </div>
     </div>
 
   </section>
@@ -238,18 +232,15 @@
     integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns"
     crossorigin="anonymous"></script>
   <script>
-
-    // Getting video element using jQuery 
-    var video = $("#video");
-
-    // Check if video is ready to play 
-    $(video).on('canplay', function () {
-      $(video).mouseenter(function () {
-        $(this).get(0).play();
-      }).mouseleave(function () {
-        $(this).get(0).pause();
-      })
+    $(document).on('mouseover', 'video', function () {
+      $(this).get(0).play();
     });
+
+    //pause video on mouse leave
+    $(document).on('mouseleave', 'video', function () {
+      $(this).get(0).pause();
+    });
+
   </script>
 </body>
 
