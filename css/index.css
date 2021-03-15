@@ -436,15 +436,16 @@ video:hover {
 .circle-item .caption .caption-content .caption-heading {
   letter-spacing: 0.2rem;
   line-height: 1.8rem;
-  font-size: 22px;
+  font-size: 18px;
 }
 .circle-item .caption .caption-content {
   color: #fff;
-  margin: auto 2rem 2rem;
-  font-weight: 500;
+  margin: auto 1rem  auto 2rem;
+  font-size: 15px;
+  font-weight: 300;
 }
 
-@media (min-width: 992px) {
+@media (min-width: 1440px) {
   .circle-item {
     max-width: none;
     margin: 0;
