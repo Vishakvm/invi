@@ -390,18 +390,28 @@ textarea {
   background: url("../images/services-animation.png");
   background-size: cover;
 }
-#video-wrapper{
-  background-size:cover;
-  height:600px!important;
+.rc{
+  width: 500px;
+  height: 500px;
+  border-radius: 100%;
+  /* -webkit-mask-image: -webkit-radial-gradient(circle, white 100%, black 100%);
+  -webkit-transform: rotate(0.000001deg);  */
+  -webkit-border-radius: 100%; 
+  -moz-border-radius: 100%;
+ }
+ 
+ .video-circle {
+ border-radius: 50%;
+ object-fit: cover;
+ width:500px;
+ height:500px;
+ }
+@media(max-width:768px){
+  .video-circle,.rc {
+    width:300px;
+    height:300px;
+    }
 }
-.virtual-video,
-.animation-video {
-  /* background-size: cover; */
-  clip-path: circle(100%);
-  border-radius: 50%;
-  width: none;
-}
-
 .virtual-video {
   background-image: url("../images/Virtualworld.jpg") center no-repeat;
 }
