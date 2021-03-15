@@ -176,7 +176,7 @@ footer .fa {
   color: #0471bc;
 }
 .team-col {
-  height: 584.26px;
+  height: 568.04px;
 }
 @media (min-width: 767px) {
   .team .col-md-4 {
@@ -194,7 +194,7 @@ footer .fa {
 }
 @media (min-width: 1440px) {
   .team-col {
-    max-height: 584.26px;
+    max-height: 568.04px;
   }
 }
 @media (min-width: 992px) {
@@ -318,8 +318,8 @@ textarea {
 }
 .portfolio-item .caption .caption-content .caption-heading {
   letter-spacing: 0.2rem;
-  line-height: 1.8rem;
-  font-size: 22px;
+  line-height: 1.3rem;
+  font-size: 20px;
 }
 .portfolio-item .caption .caption-content {
   color: #fff;
