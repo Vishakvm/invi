@@ -391,11 +391,12 @@ textarea {
   background-size: cover;
 }
 #video-wrapper{
+  background-size:cover;
   height:600px!important;
 }
 .virtual-video,
 .animation-video {
-  background-size: cover;
+  /* background-size: cover; */
   clip-path: circle(100%);
   border-radius: 50%;
   width: none;
