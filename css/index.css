@@ -387,6 +387,9 @@ textarea {
   background: url("../images/services-animation.png");
   background-size: cover;
 }
+#video-wrapper{
+  height:600px!important;
+}
 .virtual-video,
 .animation-video {
   background-size: cover;
