@@ -86,7 +86,7 @@
 }
 
 /* Temporary Code */
-a {
+a, .fa-arrow-circle-o-right {
   text-decoration: none;
   color: #0471bc;
 }
