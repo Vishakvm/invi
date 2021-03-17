@@ -410,5 +410,10 @@ video:hover {
     border-radius: 50% !important;
   }
 }
+@media(max-width:768px){
+  .small{
+    font-size:13px;
+  }
+}
 
 /* Temporary Code */
