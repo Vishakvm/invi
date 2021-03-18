@@ -1,4 +1,3 @@
-
 #demo {
   /* box-shadow: 4px 4px 8px #d0ab9e, -4px -4px 8px rgba(255, 255, 255, 0.3); */
   max-width: 1000px;
@@ -86,13 +85,14 @@
 }
 
 /* Temporary Code */
-a, .fa-arrow-circle-o-right {
+a,
+.fa-arrow-circle-o-right {
   text-decoration: none;
   color: #0471bc;
 }
-a:hover{
-  text-decoration:none;
-  color:#eb483f;
+a:hover {
+  text-decoration: none;
+  color: #eb483f;
 }
 .navbar-light .navbar-nav .nav-link:focus,
 .navbar-light .navbar-nav .nav-link:hover {
@@ -171,7 +171,15 @@ footer .fa {
   border: none !important;
   box-shadow: 0 2px 5px transparent !important;
 }
-
+@media (max-width: 768px) {
+  .page-link {
+    padding: 0.3rem;
+  }
+  .project-title {
+    line-height: 0 !important;
+    font-size: 10px !important;
+  }
+}
 .primary-text {
   color: #0471bc;
 }
@@ -279,16 +287,9 @@ textarea {
   cursor: pointer;
   border-color: #eb483f;
 }
-
-/* 
-@media (min-width: 768px) and (max-width: 1920px) {
-  .gif-image {
-    height: 540px !important;
-  }
-} */
 /* Video Styling */
-.video-col{
-  padding:0;
+.video-col {
+  padding: 0;
 }
 .works-video {
   border: none !important;
@@ -299,32 +300,33 @@ textarea {
   height: 40vh;
 }
 .project-title {
-  line-height: 3rem;
+  line-height: 2rem;
+  font-size: 15px;
 }
-
 .animation-services {
   background: url("../images/services-animation.png");
   background-size: cover;
 }
-.rc{
+.rc {
   width: 500px;
   height: 500px;
   border-radius: 100%;
-  -webkit-border-radius: 100%; 
+  -webkit-border-radius: 100%;
   -moz-border-radius: 100%;
- }
- 
- .video-circle {
- border-radius: 50%;
- object-fit: cover;
- width:500px;
- height:500px;
- }
-@media(max-width:768px){
-  .video-circle,.rc {
-    width:300px;
-    height:300px;
-    }
+}
+
+.video-circle {
+  border-radius: 50%;
+  object-fit: cover;
+  width: 500px;
+  height: 500px;
+}
+@media (max-width: 768px) {
+  .video-circle,
+  .rc {
+    width: 300px;
+    height: 300px;
+  }
 }
 .virtual-video {
   background-image: url("../images/Virtualworld.jpg") center no-repeat;
@@ -336,8 +338,8 @@ video:hover {
   cursor: pointer;
 }
 /* Circle Works Menu */
-.img{
-  border-radius:50%;
+.img {
+  border-radius: 50%;
 }
 .circle-item {
   display: block;
@@ -364,7 +366,7 @@ video:hover {
 }
 .circle-item .caption .caption-content {
   color: #fff;
-  margin: auto 1rem  auto 2rem;
+  margin: auto 1rem auto 2rem;
   font-size: 15px;
   font-weight: 300;
 }
@@ -410,9 +412,9 @@ video:hover {
     border-radius: 50% !important;
   }
 }
-@media(max-width:768px){
-  .small{
-    font-size:13px;
+@media (max-width: 768px) {
+  .small {
+    font-size: 13px;
   }
 }
 
