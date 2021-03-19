@@ -417,5 +417,10 @@ video:hover {
     font-size: 13px;
   }
 }
-
+.navigate {
+  background-color: #f19979;
+  padding: 0.7rem 3rem;
+  letter-spacing: 0.2rem;
+  font-weight: 600;
+}
 /* Temporary Code */
