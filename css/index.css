@@ -328,6 +328,13 @@ textarea {
     height: 300px;
   }
 }
+@media (min-width: 769px) and (max-width: 1024px) {
+  .video-circle,
+  .rc {
+    width: 400px;
+    height: 400px;
+  }
+}
 .virtual-video {
   background-image: url("../images/Virtualworld.jpg") center no-repeat;
 }
