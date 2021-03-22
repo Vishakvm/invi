@@ -369,12 +369,12 @@ video:hover {
 .circle-item .caption .caption-content .caption-heading {
   letter-spacing: 0.2rem;
   line-height: 1.8rem;
-  font-size: 18px;
+  font-size: 16px;
 }
 .circle-item .caption .caption-content {
   color: #fff;
   margin: auto 1rem auto 2rem;
-  font-size: 15px;
+  font-size: 14px;
   font-weight: 300;
 }
 
@@ -398,6 +398,10 @@ video:hover {
     margin-left: 5rem;
     margin-right: 5rem;
     margin-bottom: 5rem;
+    font-size: 16px;
+  }
+  .circle-item .caption .caption-content .caption-heading {
+    font-size: 20px;
   }
   .circle-item img {
     transition: -webkit-clip-path 0.25s ease-out;
@@ -433,4 +437,5 @@ video:hover {
   font-weight: 500;
   padding: 12px 24px;
 }
+
 /* Temporary Code */
