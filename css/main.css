@@ -10,7 +10,8 @@ body {
   color: #0471bc;
   font-weight: 700;
 }
-.title-desc {
+.title -desc,
+.subtitle {
   color: #0471bc;
 }
 .description {
@@ -78,6 +79,7 @@ footer {
   background: #f5c9ba;
   padding: 10px;
   color: #eb483f;
+  z-index: 0 !important;
 }
 
 .team-col {
