@@ -412,7 +412,7 @@ video:hover {
   }
   .circle-item .caption .caption-content {
     /* transition: opacity 0.25s; */
-    margin-left: 8rem !important;
+    margin-left: 7rem !important;
     margin-right: 6rem !important;
     margin-bottom: 3rem;
   }
@@ -445,8 +445,12 @@ video:hover {
   font-weight: 500;
   padding: 12px 24px;
 }
-img:hover {
+.images .zoom img {
+  transition: transform 0.5s;
+}
+.images .zoom:hover img {
   cursor: pointer;
+  transform: scale(1.05) !important;
 }
 /* Temporary Code */
 @media (min-width: 1024px) {
