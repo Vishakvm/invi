@@ -151,13 +151,13 @@
 <div id="Lightbox" class="modal">
     <span class="close pointer" onclick="closeLightbox()">&times;</span>
     <div class="modal-content">
-      <div class="slide">
+      <div class="slides">
           <img src="../../images/granada-theatre/image1.jpg" class="image-slide" alt="Image1" />
       </div>
-      <div class="slide">
+      <div class="slides">
           <img src="../../images/granada-theatre/image2.jpg" class="image-slide" alt="Image2" />
       </div> 
-      <div class="slide">
+      <div class="slides">
         <img src="../../images/granada-theatre/image3.jpg" class="image-slide" alt="Image1" />
     </div>
       <a class="previous" onclick="changeSlide(-1)">&#10094;</a>
@@ -290,7 +290,7 @@
                 showSlide(slideIndex = n);
             };
             function showSlide(n) {
-                const slides = document.getElementsByClassName('slide');
+                const slides = document.getElementsByClassName('slides');
                 let modalPreviews = document.getElementsByClassName('modal-preview');
     
                 if (n > slides.length) {
