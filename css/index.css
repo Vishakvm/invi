@@ -372,6 +372,9 @@ video:hover {
   top: 0;
   bottom: 0;
   z-index: 1;
+  -webkit-clip-path: circle(90%);
+  clip-path: circle(90%);
+  border-radius: 50% !important;
 }
 .circle-item .caption .caption-content .caption-heading {
   letter-spacing: 0.2rem;
@@ -396,11 +399,7 @@ video:hover {
   /* max-width: none; */
   /* margin: 0; */
 }
-.circle-item .caption {
-  -webkit-clip-path: circle(90%);
-  clip-path: circle(90%);
-  border-radius: 50% !important;
-}
+
 @media (min-width: 1440px) {
   .circle-item .caption .caption-content .caption-heading {
     font-size: 20px;
