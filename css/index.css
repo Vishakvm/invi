@@ -362,6 +362,8 @@ video:hover {
   max-width: 540px;
   margin: auto auto 1rem;
   border-radius: 50%;
+  -webkit-clip-path: circle(100%);
+  clip-path: circle(100%);
 }
 .circle-item .caption {
   display: flex;
@@ -372,8 +374,8 @@ video:hover {
   top: 0;
   bottom: 0;
   z-index: 1;
-  -webkit-clip-path: circle(90%);
-  clip-path: circle(90%);
+  -webkit-clip-path: circle(100%);
+  clip-path: circle(100%);
   border-radius: 50% !important;
 }
 .circle-item .caption .caption-content .caption-heading {
@@ -395,13 +397,42 @@ video:hover {
   clip-path: circle(100%);
   border-radius: 50% !important;
 }
-.circle-item {
-  /* max-width: none; */
-  /* margin: 0; */
-}
 
+.box img {
+  display: block;
+  transition: transform 0.8s;
+  filter: brightness(80%);
+  background-color: rgba(8, 8, 8, 0.2) !important;
+}
+.box {
+  position: relative;
+  display: inline-block;
+  background-color: rgba(8, 8, 8, 0.2) !important;
+  -webkit-clip-path: circle(100%);
+  clip-path: circle(100%);
+  max-width: 540px;
+  margin: auto auto 1rem;
+  overflow: hidden;
+  border-radius: 50%;
+}
+.box .text {
+  color: #fff;
+  letter-spacing: 0.2rem;
+  line-height: 1.8rem;
+  font-size: 15px;
+  position: absolute !important;
+  bottom: 13%;
+  left: 15%;
+  right: 15%;
+  z-index: 1 !important;
+}
+.box:hover img {
+  transform: scale(1.3);
+  transform-origin: 50% 50%;
+}
 @media (min-width: 1440px) {
-  .circle-item .caption .caption-content .caption-heading {
+  .circle-item .caption .caption-content .caption-heading,
+  .box .text {
     font-size: 20px;
   }
 }
