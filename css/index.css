@@ -355,6 +355,9 @@ video:hover {
 .img {
   border-radius: 50%;
 }
+.say-hello {
+  padding-right: 0 !important;
+}
 .circle-item {
   display: block;
   position: relative;
