@@ -10,6 +10,12 @@ body {
   color: #0471bc;
   font-weight: 700;
 }
+.stories-title {
+  font-size: 1.3rem;
+  line-height: 2.5rem;
+  color: #0471bc;
+  font-weight: 700;
+}
 @media (max-width: 768px) {
   .title {
     font-size: 1.8rem;
